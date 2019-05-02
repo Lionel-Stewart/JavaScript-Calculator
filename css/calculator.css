@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  background-color: rgb(194, 194, 194);
+  margin-top: 50px;
+}
+
+input {
+  height: 30px;
+  width: 342px;
+}
+
+button{
+  color: white;
+  border: none;
+  background-color: rgb(57, 57, 57);
+  font-size: 20px;
+  height: 65px;
+  outline: 1px solid black;
+  width: 85px;
+}
+
+#equals {
+  background-color: rgb(57, 57, 172);
+}
+
+.operator{
+  background-color: rgb(117, 117, 117);
+}
+
+#clear {
+  background-color: rgb(57, 172, 57);
+  width: 255px;
+}
+
+#zero {
+  width: 170px;
+}

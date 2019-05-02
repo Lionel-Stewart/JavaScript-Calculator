@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Calculator</title>
+    <link rel="stylesheet" type="text/css" href="../css/calculator.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Javascript Calculator</h1>
+
+      <p id='answer'>Ans: 0</p>
+
+      <input type="text" id="display" value="0" disabled>
+
+        <div id="firstRow">
+          <button id="clear">AC</button><!--
+        --><button id="divide" class="operator displayElement">/</button>
+        </div>
+        
+        <div id="secondRow">
+          <button id="seven" class="number displayElement">7</button><!--
+          --><button id="eight" class="number displayElement">8</button><!--
+          --><button id="nine" class="number displayElement">9</button><!--
+        --><button id="multiply" class="operator displayElement">*</button>
+        </div>
+
+        <div id="thirdRow">
+          <button id="four" class="number displayElement">4</button><!--
+          --><button id="five" class="number displayElement">5</button><!--
+          --><button id="six" class="number displayElement">6</button><!--
+          --><button id="subtract" class="operator displayElement">-</button>
+        </div>
+
+        <div id="fourthRow">
+          <button id="one" class="number displayElement">1</button><!--
+          --><button id="two" class="number displayElement">2</button><!--
+          --><button id="three" class="number displayElement">3</button><!--
+          --><button id="add" class="operator displayElement">+</button>
+        </div>
+
+        <div id="lastRow">
+           <button id="zero" class="number displayElement">0</button><!--
+        --><button id="decimal" class="displayElement">.</button><!--
+        --><button id="equals">=</button>
+         </div>
+    </div>
+    <script type="text/javascript" src="../js/calculator.js"></script>
+    <script type="text/javascript" src="../js/click-events.js"></script>
+  </body>
+</html>
