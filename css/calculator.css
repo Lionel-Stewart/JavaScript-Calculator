@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: rgb(194, 194, 194);
+  background-color: #c2c2c2;
   margin-top: 50px;
 }
 
@@ -12,7 +12,7 @@ input {
 button{
   color: white;
   border: none;
-  background-color: rgb(57, 57, 57);
+  background-color: #393939;
   font-size: 20px;
   height: 65px;
   outline: 1px solid black;
@@ -20,15 +20,15 @@ button{
 }
 
 #equals {
-  background-color: rgb(57, 57, 172);
+  background-color: #3939ac;
 }
 
 .operator{
-  background-color: rgb(117, 117, 117);
+  background-color: #757575;
 }
 
 #clear {
-  background-color: rgb(57, 172, 57);
+  background-color: #39ac39;
   width: 255px;
 }
 
